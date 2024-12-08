@@ -9,10 +9,11 @@ header{
 }
 
 header .full-width-wrapper{
-    padding: 2rem 1rem;
+    padding: 3rem 2rem;
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
 }
@@ -24,7 +25,7 @@ header nav ul{
     font-size: 1.25rem;
 }
 
-header nav ul a{
+header .nav-link{
     font-weight: bold;
     text-decoration: none;
     letter-spacing: 1px;
@@ -33,3 +34,79 @@ header nav ul a{
 header nav ul a:hover{
     text-decoration: underline;
 }
+
+.hamburger-button{
+    display: none;
+}
+
+@media(max-width: 800px){
+
+    header nav{
+        display: grid;
+        flex-basis: 100%;
+    }
+
+    header nav.nav-closed{
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 250ms ease-in;
+    }
+
+    header nav.nav-open{
+        grid-template-rows: 1fr;
+        transition: grid-template-rows 250ms ease-in;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    header .nav-link{
+        text-align: center;
+    }
+
+    .hamburger-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin-left: auto;
+        font-size: 2.25rem;
+        background: none;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+
+        width: 35px;
+        height: 22px;
+        padding: .125rem;
+
+        transition: 0.4s;
+    }
+
+
+    .hamburger-button .hamburger-line{
+        width: 85%;
+        height: 2px;
+        background-color: #fff;
+        transition: transform 250ms ease-in;
+        border-radius: .5rem;
+    }
+
+    .hamburger-button.hamburger-open{
+        transform: translateY(5px);
+    }
+
+    .hamburger-button.hamburger-open .hamburger-line:first-child{
+        transform: rotate(58deg) translate(2px, 7px) scaleX(.68);
+    }
+
+    .hamburger-button.hamburger-open .hamburger-line:nth-child(2){
+        transform: rotate(90deg) translate(-10px, 0px);
+    }
+
+    .hamburger-button.hamburger-open .hamburger-line:last-child{
+        transform: rotate(-58deg) translate(12px, -2px) scaleX(.68);
+    }
+}
+
