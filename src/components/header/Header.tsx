@@ -48,7 +48,7 @@ const Header: FC = () => {
             <div className={"observer"} ref={observerRef}></div>
             <header className={"full-width"} ref={headerRef}>
                 <div className="full-width-wrapper">
-                    <h1>Mark Kiss</h1>
+                    <h1>Márk Kiss</h1>
                     <button ref={buttonRef}
                             className={isNavVisible ? "hamburger-button hamburger-open" : "hamburger-button"}
                             aria-label={"Toggle navigation menu"} onClick={() => {

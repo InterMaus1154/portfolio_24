@@ -30,7 +30,7 @@
     align-items: center;
     min-height: 100vh;
     min-height: 100svh;
-    padding-inline: 1rem;
+    padding-inline: 2rem;
 }
 
 .hero-section .hero-title-wrapper{
@@ -53,5 +53,9 @@
 @media(max-width: 800px){
     .hero-section .hero-title-wrapper h2{
         font-size: 5rem;
+    }
+
+    .hero-section .hero-title-wrapper h3{
+        font-size: 1.25rem;
     }
 }
