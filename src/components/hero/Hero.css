@@ -1,5 +1,5 @@
 .hero-section{
-    background-image: url("./images/banner/hero_banner.jpg");
+    background-image: url("/images/banner/hero_banner.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
