@@ -1,5 +1,5 @@
 import {FC} from 'react';
-
+import "./Hero.css";
 
 const Hero: FC = () => {
     return (

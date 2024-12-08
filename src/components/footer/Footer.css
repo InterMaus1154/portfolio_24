@@ -1,0 +1,7 @@
+footer{
+    background-color: var(--background-2);
+}
+
+footer .full-width-wrapper{
+    padding: 4rem 2rem;
+}

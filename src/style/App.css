@@ -42,3 +42,22 @@ img {
     max-width: var(--body-width);
     margin: 0 auto;
 }
+
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
+header{
+    flex-shrink: 0;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+    flex-shrink: 0;
+}

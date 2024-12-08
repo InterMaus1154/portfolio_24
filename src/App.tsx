@@ -2,6 +2,7 @@ import {FC} from 'react';
 import "./style/App.css";
 import Header from "./components/header";
 import Hero from "./components/hero";
+import Footer from "./components/footer";
 
 const App: FC = () => {
     return (
@@ -10,6 +11,7 @@ const App: FC = () => {
             <main>
                 <Hero/>
             </main>
+            <Footer />
         </div>
     );
 };
