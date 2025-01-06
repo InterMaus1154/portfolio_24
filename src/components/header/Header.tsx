@@ -12,6 +12,8 @@ const Header: FC = () => {
     const [isObserverVisible, setObserverVisible] = useState<boolean>(false);
 
     useEffect(() => {
+        // check if observer part of header is visible
+        // state: IsObserverVisible
         const observer = new IntersectionObserver(entries => {
             setObserverVisible(entries[0].isIntersecting);
         });
@@ -30,6 +32,7 @@ const Header: FC = () => {
 
             if (buttonRef.current.contains(e.target as Node)) return;
 
+            // close nav on outside nav click
             if (isNavVisible && navRef.current && !navRef.current.contains(e.target as Node)) {
                 setNavVisible(false);
             }
@@ -45,10 +48,12 @@ const Header: FC = () => {
 
     return (
         <Fragment>
+            {/*only used for scroll observing, no content should be placed*/}
             <div className={"observer"} ref={observerRef}></div>
-            <header className={"full-width"} ref={headerRef}>
+            <header className={!isObserverVisible ? "full-width header-scroll" : "full-width"} ref={headerRef}>
                 <div className="full-width-wrapper">
                     <h1>Márk Kiss</h1>
+                    {/*menu toggle button, should be only visible on small screen*/}
                     <button ref={buttonRef}
                             className={isNavVisible ? "hamburger-button hamburger-open" : "hamburger-button"}
                             aria-label={"Toggle navigation menu"} onClick={() => {
@@ -76,6 +81,9 @@ const Header: FC = () => {
                             <li>
                                 <a className={"nav-link"} href="#" title={"Find my social details and my CV"}>Contact
                                 </a>
+                            </li>
+                            <li>
+                                <a className={"nav-link external-link"} href={"https://markweb.hashnode.dev/"} target={"_blank"} referrerPolicy={"strict-origin"}>Blog</a>
                             </li>
                         </ul>
                     </nav>

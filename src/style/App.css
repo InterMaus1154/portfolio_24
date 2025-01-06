@@ -28,6 +28,17 @@ a {
     display: block;
 }
 
+a:is(.external-link){
+    position: relative;
+}
+
+a.external-link::after{
+    content: '↗';
+    position: absolute;
+    right: -32%;
+    top: -15%;
+}
+
 img {
     max-width: 100%;
     display: block;

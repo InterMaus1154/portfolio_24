@@ -8,8 +8,27 @@ header{
     z-index: 1000;
 }
 
+
+header::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    /*D51067*/
+    background-color: rgba(30, 27, 75, .2);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
+header.header-scroll .full-width-wrapper{
+    padding-block: 1rem;
+    transition: padding-block 250ms ease-in;
+}
+
+
 header .full-width-wrapper{
-    padding: 3rem 2rem;
+    padding-block: 3rem;
+    padding-inline: 2rem;
+    transition: padding-block 250ms ease-in;
 
     display: flex;
     justify-content: space-between;
