@@ -13,7 +13,7 @@ const Header: FC = () => {
 
     useEffect(() => {
         // check if observer part of header is visible
-        // state: IsObserverVisible
+        // state: isObserverVisible
         const observer = new IntersectionObserver(entries => {
             setObserverVisible(entries[0].isIntersecting);
         });
@@ -63,10 +63,10 @@ const Header: FC = () => {
                         <span className={"hamburger-line"}></span>
                         <span className={"hamburger-line"}></span>
                     </button>
-                    <nav className={isNavVisible ? "nav-open": "nav-closed"}>
+                    <nav className={isNavVisible ? "nav-open" : "nav-closed"}>
                         <ul>
                             <li>
-                                <a className={"nav-link"} title={"About me"} href="#">About</a>
+                                <a className={"nav-link"} title={"About me"} href="#about">About</a>
                             </li>
                             <li>
                                 <a className={"nav-link"} href="#" title={"My journey with WorldSkills"}>WorldSkills
@@ -83,7 +83,9 @@ const Header: FC = () => {
                                 </a>
                             </li>
                             <li>
-                                <a className={"nav-link external-link"} href={"https://markweb.hashnode.dev/"} target={"_blank"} referrerPolicy={"strict-origin"}>Blog</a>
+                                <a className={"nav-link external-link"} href={"https://markweb.hashnode.dev/"}
+                                   target={"_blank"} referrerPolicy={"strict-origin"}>Blog
+                                </a>
                             </li>
                         </ul>
                     </nav>

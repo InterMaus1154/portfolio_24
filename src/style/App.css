@@ -12,8 +12,13 @@
     --dark-txt: #1e1b4b;
     --background: #171032;
     --background-2: #2E1651;
+    --section-background: #160F31;
     --txt: #ffffff;
     --heading-txt: #D51067;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -71,4 +76,39 @@ main{
 
 footer{
     flex-shrink: 0;
+}
+
+.page--section{
+    background-color: var(--section-background, purple);
+}
+
+.page--section .full-width-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-block: 3rem;
+    padding-inline: 2rem;
+}
+
+.page--section .section--title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px var(--heading-txt);
+    letter-spacing: 2px;
+    color: transparent;
+}
+
+.text--block{
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.block--subtitle{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    color: var(--txt);
 }
