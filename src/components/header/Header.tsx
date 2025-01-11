@@ -50,7 +50,7 @@ const Header: FC = () => {
         <Fragment>
             {/*only used for scroll observing, no content should be placed*/}
             <div className={"observer"} ref={observerRef}></div>
-            <header className={!isObserverVisible ? "full-width header-scroll" : "full-width"} ref={headerRef}>
+            <header className={!isObserverVisible ? "full--width header-scroll" : "full--width"} ref={headerRef}>
                 <div className="full-width-wrapper">
                     <h1>Márk Kiss</h1>
                     {/*menu toggle button, should be only visible on small screen*/}

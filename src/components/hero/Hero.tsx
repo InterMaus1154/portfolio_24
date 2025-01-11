@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero: FC = () => {
     return (
-        <section className={"hero-section page-section full-width"}>
+        <section className={"hero-section page--section full--width"}>
             <div className="full-width-wrapper">
                 <div className="hero-title-wrapper">
                     <h2>Márk Kiss</h2>
