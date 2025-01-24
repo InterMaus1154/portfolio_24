@@ -6,7 +6,7 @@
     font-family: inherit;
 }
 
-:root{
+:root {
     --body-width: 1440px;
 
     --dark-txt: #1e1b4b;
@@ -17,7 +17,7 @@
     --heading-txt: #D51067;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -33,11 +33,11 @@ a {
     display: block;
 }
 
-a:is(.external-link){
+a:is(.external-link) {
     position: relative;
 }
 
-a.external-link::after{
+a.external-link::after {
     content: '↗';
     position: absolute;
     right: -32%;
@@ -49,60 +49,76 @@ img {
     display: block;
 }
 
-.full--width{
+.full--width {
     width: 100vw;
     margin-inline: calc(50% - 50vw);
 }
 
-.full-width-wrapper{
+.full-width-wrapper {
     max-width: var(--body-width);
     margin: 0 auto;
 }
 
-.app{
+.app {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     min-height: 100svh;
 }
 
-header{
+header {
     flex-shrink: 0;
 }
 
-main{
+main {
     flex-grow: 1;
 }
 
-footer{
+footer {
     flex-shrink: 0;
 }
 
-.page--section{
+.page--section {
     background-color: var(--section-background, purple);
 }
 
-.page--section:nth-child(odd){
+.page--section:nth-child(odd) {
     background-color: var(--dark-txt);
 }
 
-.page--section .full-width-wrapper{
+.page--section .full-width-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding-block: 3rem;
+    gap: 3rem;
+    padding-block: 5rem;
     padding-inline: 2rem;
 }
 
-.page--section .section--title{
+.page--section .section--title {
     font-size: 3rem;
     text-transform: uppercase;
     -webkit-text-stroke: 1px var(--heading-txt);
     letter-spacing: 2px;
     color: transparent;
+    position: relative;
 }
 
-.text--block{
+.page--section .section--title::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    margin-inline: calc(50% - 50vw);
+    margin-top: -5rem;
+    height: 150%;
+    background-image: linear-gradient(to right, var(--dark-txt), var(--section-background));
+    clip-path: polygon(100% 0, 0 0, 100% 125%);
+}
+
+.page--section:nth-child(odd) .section--title::before {
+    background-image: linear-gradient(to left, var(--dark-txt), var(--section-background));
+}
+
+.text--block {
     text-align: justify;
 
     display: flex;
@@ -110,7 +126,7 @@ footer{
     gap: 1rem;
 }
 
-.block--subtitle{
+.block--subtitle {
     text-align: center;
     font-size: 2rem;
     letter-spacing: 4px;

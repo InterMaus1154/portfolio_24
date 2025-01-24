@@ -2,13 +2,13 @@
 .about-sections{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .about-block{
     display: flex;
     flex-flow: column nowrap;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .about-block .block-content{
@@ -38,7 +38,20 @@
 
 .about-block .image--block{
     justify-self: center;
+
+    width: 350px;
+    height: 300px;
+    background-color: red;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+
+    transition: transform 0.5s;
 }
+
+.about-block .image--block:hover{
+    transition: transform 0.5s;
+    transform: translateY(-10px);
+}
+
 
 .about-block .image--block img{
     object-fit: cover;

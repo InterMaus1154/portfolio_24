@@ -23,7 +23,8 @@ const About: FC = () => {
                                 </p>
                             </div>
                             <div className="image--block">
-                                <img src="https://placehold.co/300x300" alt=""/>
+
+                                {/*<img src="https://placehold.co/300x300" alt=""/>*/}
                             </div>
                         </div>
                     </article>
@@ -42,7 +43,6 @@ const About: FC = () => {
                                 </p>
                             </div>
                             <div className="image--block">
-                                <img src="https://placehold.co/300x300" alt=""/>
                             </div>
                         </div>
                     </article>
@@ -61,7 +61,7 @@ const About: FC = () => {
                                 </p>
                             </div>
                             <div className="image--block">
-                                <img src="https://placehold.co/300x300" alt=""/>
+
                             </div>
                         </div>
                     </article>
@@ -75,7 +75,6 @@ const About: FC = () => {
                                 </p>
                             </div>
                             <div className="image--block">
-                                <img src="https://placehold.co/300x300" alt=""/>
                             </div>
                         </div>
                     </article>

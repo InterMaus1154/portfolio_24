@@ -42,6 +42,24 @@
     font-size: 8rem;
     -webkit-text-stroke: 4px var(--txt);
     color: transparent;
+    text-shadow: 10px 0 10px var(--heading-txt);
+    animation-name: shadow-breath;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes shadow-breath {
+    from{
+        text-shadow: 20px 0 30px var(--heading-txt);
+    }
+    50%{
+        text-shadow: -20px 2px 15px var(--heading-txt);
+    }
+    to{
+        text-shadow: 20px 0 30px var(--heading-txt);
+    }
 }
 
 .hero-section .hero-title-wrapper h3{
