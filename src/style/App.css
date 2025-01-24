@@ -110,6 +110,7 @@ footer {
     margin-inline: calc(50% - 50vw);
     margin-top: -5rem;
     height: 150%;
+    max-height: 80px;
     background-image: linear-gradient(to right, var(--dark-txt), var(--section-background));
     clip-path: polygon(100% 0, 0 0, 100% 125%);
 }
