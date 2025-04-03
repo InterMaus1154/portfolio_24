@@ -41,19 +41,55 @@
 
     width: 350px;
     height: 300px;
-    background-color: red;
+
+    transition: transform 0.5s;
+    position: relative;
+}
+
+.about-block .image--block .image-block-border{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    inset: 0;
+    background-color: #fff;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-
-    transition: transform 0.5s;
 }
 
-.about-block .image--block:hover{
-    transition: transform 0.5s;
-    transform: translateY(-10px);
+.about-block .image--block .image-block-inside{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 250px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
 }
 
-
-.about-block .image--block img{
-    object-fit: cover;
-    border-radius: 50%;
+/*
+.about-block .image--block::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    !*clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);*!
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    z-index: -1;
 }
+*/
+
+/*.about-block .image--block:hover{*/
+/*    transition: transform 0.5s;*/
+/*    transform: translateY(-10px);*/
+/*}*/
+
+.about-block .hexagon-image-wrapper{
+    justify-self: center;
+}
+
+.about-block#introduction .hexagon-image-wrapper .hexagon-image-image{
+    /*background-image: url("images/prof/me_ws.jpg");*/
+    background-position: top;
+}
+

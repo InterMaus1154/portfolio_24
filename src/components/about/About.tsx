@@ -1,12 +1,13 @@
 import {FC} from 'react';
 import "./About.css";
+import HexagonBorderImage from "../shared/hexaimage";
 const About: FC = () => {
     return (
         <section className={"page--section about-section full--width"} id={"about"}>
             <div className="full-width-wrapper">
                 <h2 className="section--title">About</h2>
                 <div className="about-sections">
-                    <article className="about-block">
+                    <article className="about-block" id={"introduction"}>
                         <h3 className={"block--subtitle"}>Introduction</h3>
                         <div className="block-content">
                             <div className="text--block">
@@ -22,10 +23,12 @@ const About: FC = () => {
                                     always ready to tackle exciting challenges.
                                 </p>
                             </div>
-                            <div className="image--block">
-
-                                {/*<img src="https://placehold.co/300x300" alt=""/>*/}
-                            </div>
+                            <HexagonBorderImage />
+                            {/*<div className="image--block">*/}
+                            {/*    <div className="image-block-border"></div>*/}
+                            {/*    <div className="image-block-inside"></div>*/}
+                            {/*    <img src="https://placehold.co/300x300" alt=""/>*/}
+                            {/*</div>*/}
                         </div>
                     </article>
                     <article className="about-block">
