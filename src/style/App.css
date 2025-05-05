@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    font-family:  sans-serif;
+    font-family: FrutigerLTCom, arial, sans-serif;
     color: var(--txt);
     background-color: var(--background);
     max-width: var(--body-width);
