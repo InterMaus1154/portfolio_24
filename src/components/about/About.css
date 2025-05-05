@@ -102,23 +102,23 @@
 }
 
 .about-sections #introduction .hexagon-image-image{
-    background-image: url('images/prof/me_ws.jpg');
+    background-image: url('/images/prof/me_ws.jpg');
     background-size: cover;
 }
 
 .about-sections #education .hexagon-image-image{
-    background-image: url('images/prof/me_award.jpg');
+    background-image: url('/images/prof/me_award.jpg');
     background-size: cover;
 }
 
 .about-sections #hobbies .hexagon-image-image{
-    background-image: url("images/prof/plane.png");
+    background-image: url("/images/prof/plane.png");
     background-size: cover;
     background-position: 370px 0;
 }
 
 .about-sections #skills .hexagon-image-image{
-    background-image: url("images/prof/me_cer.jpg");
+    background-image: url("/images/prof/me_cer.jpg");
     background-size: cover;
     background-position: 370px 0;
 }
