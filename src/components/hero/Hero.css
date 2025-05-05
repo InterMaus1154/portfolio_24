@@ -48,6 +48,7 @@
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
+    paint-order: stroke fill;
 }
 
 @keyframes shadow-breath {
