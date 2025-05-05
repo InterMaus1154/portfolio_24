@@ -7,6 +7,7 @@ const About: FC = () => {
             <div className="full-width-wrapper">
                 <h2 className="section--title">About</h2>
                 <div className="about-sections">
+                    {/*Introduction*/}
                     <article className="about-block" id={"introduction"}>
                         <h3 className={"block--subtitle"}>Introduction</h3>
                         <div className="block-content">
@@ -24,14 +25,10 @@ const About: FC = () => {
                                 </p>
                             </div>
                             <HexagonBorderImage />
-                            {/*<div className="image--block">*/}
-                            {/*    <div className="image-block-border"></div>*/}
-                            {/*    <div className="image-block-inside"></div>*/}
-                            {/*    <img src="https://placehold.co/300x300" alt=""/>*/}
-                            {/*</div>*/}
                         </div>
                     </article>
-                    <article className="about-block">
+                    {/*Education*/}
+                    <article className="about-block" id={"education"}>
                         <h3 className={"block--subtitle"}>Educational Background</h3>
                         <div className="block-content">
                             <div className="text--block">
@@ -45,11 +42,11 @@ const About: FC = () => {
                                     technologies or domain].
                                 </p>
                             </div>
-                            <div className="image--block">
-                            </div>
+                            <HexagonBorderImage />
                         </div>
                     </article>
-                    <article className="about-block">
+                    {/*Skills*/}
+                    <article className="about-block" id={"skills"}>
                         <h3 className={"block--subtitle"}>Skills</h3>
                         <div className="block-content">
                             <div className="text--block">
@@ -63,12 +60,11 @@ const About: FC = () => {
                                     technologies or domain].
                                 </p>
                             </div>
-                            <div className="image--block">
-
-                            </div>
+                            <HexagonBorderImage />
                         </div>
                     </article>
-                    <article className="about-block">
+                    {/*Hobbies and interests*/}
+                    <article className="about-block" id={"hobbies"}>
                         <h3 className={"block--subtitle"}>Hobbies</h3>
                         <div className="block-content">
                             <div className="text--block">
@@ -77,8 +73,7 @@ const About: FC = () => {
                                 <p>Traveling allows me to experience new cultures and gain fresh perspectives, while gaming challenges my problem-solving abilities and helps me unwind. Photography is another interest, giving me the chance to experiment with visual storytelling and capture memorable moments. These hobbies often spark fresh ideas and keep me motivated in both personal and professional pursuits.
                                 </p>
                             </div>
-                            <div className="image--block">
-                            </div>
+                            <HexagonBorderImage />
                         </div>
                     </article>
                 </div>

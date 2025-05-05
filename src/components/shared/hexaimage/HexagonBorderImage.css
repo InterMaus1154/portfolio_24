@@ -20,7 +20,6 @@
     height: var(--hexagon-image-height);
 
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-    background-color: red;
 }
 
 .hexagon-image-wrapper .hexagon-image-blender{
@@ -32,7 +31,6 @@
     width: calc(var(--hexagon-image-width) - 10px);
     height: calc(var(--hexagon-image-height) - 10px);
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-    background-color: blue;
 }
 
 .hexagon-image-wrapper .hexagon-image-image{
@@ -44,6 +42,4 @@
     width: calc(var(--hexagon-image-width) - 20px);
     height: calc(var(--hexagon-image-height) - 20px);
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-
-    background-color: yellow;
 }

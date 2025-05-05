@@ -24,8 +24,8 @@
 }
 
 @media(min-width: 800px){
-    .about-block:nth-child(even) .image--block{
-        order: -1;
+    .about-block:nth-child(even) .text--block{
+        order: 2;
     }
 }
 
@@ -84,7 +84,7 @@
 /*    transform: translateY(-10px);*/
 /*}*/
 
-.about-block .hexagon-image-wrapper{
+.about-block .hexagon-tilt-wrapper{
     justify-self: center;
 }
 
@@ -93,3 +93,32 @@
     background-position: top;
 }
 
+.about-sections .hexagon-image-border{
+    background-color: #fff;
+}
+
+.about-sections .hexagon-image-blender{
+    background-color: var(--background);
+}
+
+.about-sections #introduction .hexagon-image-image{
+    background-image: url('images/prof/me_ws.jpg');
+    background-size: cover;
+}
+
+.about-sections #education .hexagon-image-image{
+    background-image: url('images/prof/me_award.jpg');
+    background-size: cover;
+}
+
+.about-sections #hobbies .hexagon-image-image{
+    background-image: url("images/prof/plane.png");
+    background-size: cover;
+    background-position: 370px 0;
+}
+
+.about-sections #skills .hexagon-image-image{
+    background-image: url("images/prof/me_cer.jpg");
+    background-size: cover;
+    background-position: 370px 0;
+}
