@@ -36,11 +36,12 @@
 .hero-section .hero-title-wrapper{
     display: flex;
     flex-direction: column;
+    gap: .25rem;
 }
 
 .hero-section .hero-title-wrapper h2{
     font-size: 8rem;
-    -webkit-text-stroke: 2px var(--txt);
+    -webkit-text-stroke: 1px var(--txt);
     color: transparent;
     text-shadow: 10px 0 10px var(--heading-txt);
     animation-name: shadow-breath;
@@ -70,10 +71,10 @@
 
 @media(max-width: 800px){
     .hero-section .hero-title-wrapper h2{
-        font-size: 5rem;
+        font-size: 6rem;
     }
 
     .hero-section .hero-title-wrapper h3{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 }

@@ -21,6 +21,10 @@
     .about-block .block-content{
         grid-template-columns: 1fr;
     }
+
+    .hexagon-image-wrapper{
+        --hexagon-image-width: 330px!important;
+    }
 }
 
 @media(min-width: 800px){

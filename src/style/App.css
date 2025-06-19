@@ -1,9 +1,103 @@
+@font-face {
+    font-family: 'FrutigerLTProBlack';
+    src: url('/font/FrutigerLTProBlack.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProBlackCn';
+    src: url('/font/FrutigerLTProBlackCn.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProBlackCnIta';
+    src: url('/font/FrutigerLTProBlackCnIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProBlackItalic';
+    src: url('/font/FrutigerLTProBlackItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProBold';
+    src: url('/font/FrutigerLTProBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProBoldCn';
+    src: url('/font/FrutigerLTProBoldCn.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProBoldCnIta';
+    src: url('/font/FrutigerLTProBoldCnIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProBoldItalic';
+    src: url('/font/FrutigerLTProBoldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProCondensed';
+    src: url('/font/FrutigerLTProCondensed.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProCondensedItalic';
+    src: url('/font/FrutigerLTProCondensedItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProExtraBlackCn';
+    src: url('/font/FrutigerLTProExtraBlackCn.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProExtraBlkCnIta';
+    src: url('/font/FrutigerLTProExtraBlkCnIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProItalic';
+    src: url('/font/FrutigerLTProItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProLight';
+    src: url('/font/FrutigerLTProLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProLightCn';
+    src: url('/font/FrutigerLTProLightCn.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProLightCnIta';
+    src: url('/font/FrutigerLTProLightCnIta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProLightItalic';
+    src: url('/font/FrutigerLTProLightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProRoman';
+    src: url('/font/FrutigerLTProRoman.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FrutigerLTProUltraBlack';
+    src: url('/font/FrutigerLTProUltraBlack.otf') format('opentype');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: inherit;
-    font-family: inherit;
 }
 
 :root {
@@ -22,7 +116,7 @@ html {
 }
 
 body {
-    font-family: FrutigerLTCom, arial, sans-serif;
+    font-family:'FrutigerLTProRoman', 'Times New Roman', sans-serif;
     color: var(--txt);
     background-color: var(--background);
     max-width: var(--body-width);
@@ -133,3 +227,4 @@ footer {
     letter-spacing: 4px;
     color: var(--txt);
 }
+
