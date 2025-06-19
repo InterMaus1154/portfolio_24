@@ -39,7 +39,7 @@ header .full-width-wrapper{
 
 header nav ul{
     display: flex;
-    gap: 1.25rem;
+    gap: 1.5rem;
     list-style-type: none;
     font-size: 1.25rem;
 }

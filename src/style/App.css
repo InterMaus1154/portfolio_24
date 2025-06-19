@@ -127,15 +127,15 @@ a {
     display: block;
 }
 
-a:is(.external-link) {
+a.external-link{
     position: relative;
 }
 
 a.external-link::after {
     content: '↗';
     position: absolute;
-    right: -32%;
-    top: -15%;
+    right: -30%;
+    top: -25%;
 }
 
 img {

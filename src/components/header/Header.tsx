@@ -87,6 +87,11 @@ const Header: FC = () => {
                                    target={"_blank"} referrerPolicy={"strict-origin"}>Blog
                                 </a>
                             </li>
+                            <li>
+                                <a className={"nav-link external-link"} href={"https://github.com/InterMaus1154"}
+                                   target={"_blank"} referrerPolicy={"strict-origin"}>GitHub
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
