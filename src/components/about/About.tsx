@@ -1,6 +1,7 @@
 import {FC} from 'react';
 import "./About.css";
 import HexagonBorderImage from "../shared/hexaimage";
+
 const About: FC = () => {
     return (
         <section className={"page--section about-section full--width"} id={"about"}>
@@ -17,7 +18,7 @@ const About: FC = () => {
                                 <p>
                                 </p>
                             </div>
-                            <HexagonBorderImage />
+                            <HexagonBorderImage/>
                         </div>
                     </article>
                     {/*Education*/}
@@ -25,13 +26,20 @@ const About: FC = () => {
                         <h3 className={"block--subtitle"}>Educational Background</h3>
                         <div className="block-content">
                             <div className="text--block">
-                                <p>I am currently completing my undergraduate degree of Software Engineering at a UK university. I completed the first year by achieving first class in all my modules.
+                                <p>I am currently completing my undergraduate degree of Software Engineering at a UK
+                                    university. I completed the first year by achieving first class in all my modules.
                                 </p>
-                                <p>I attended the <a className={"inline-link"} href={"https://cnwl.ac.uk/about/news-events/article/2024/09/23/student-wins-medallion-for-excellence-at-worldskills-lyon-2024"} target={"_blank"}>College of North West London</a>, where I completed my BTEC Extended Diploma in IT qualification, achieving the highest grade of <b>D*D*D*.</b>
+                                <p>I attended the <a className={"inline-link"}
+                                                     href={"https://cnwl.ac.uk/about/news-events/article/2024/09/23/student-wins-medallion-for-excellence-at-worldskills-lyon-2024"}
+                                                     target={"_blank"}>College of North West London</a>, where I
+                                    completed my BTEC Extended Diploma in IT qualification, achieving the highest grade
+                                    of <b>D*D*D*.</b>
                                 </p>
-                                <p>After completing my course, I was awarded the <b>Outstanding Student of the Year</b> in Creative and Digital Industries.</p>
+                                <p>After completing my course, I was awarded the <b>Outstanding Student of the
+                                    Year</b> in Creative and Digital Industries.
+                                </p>
                             </div>
-                            <HexagonBorderImage />
+                            <HexagonBorderImage/>
                         </div>
                     </article>
                     {/*Skills*/}
@@ -39,17 +47,18 @@ const About: FC = () => {
                         <h3 className={"block--subtitle"}>Skills</h3>
                         <div className="block-content">
                             <div className="text--block">
-                                <p>I hold a [Degree Name] in [Field of Study] from [University Name], where I developed
-                                    a strong foundation in [specific relevant skills or subjects]. My academic journey
-                                    honed my problem-solving abilities, critical thinking, and technical expertise,
-                                    preparing me to tackle real-world challenges in [industry or field].
+                                <p>My primary focus is backend development, particularly using PHP and the Laravel
+                                    framework. I enjoy building  APIs, managing SQL databases and I always aim to write maintainable and high-performance code.
                                 </p>
-                                <p>Additionally, I’ve engaged in continuous learning through certifications and personal
-                                    projects, ensuring I stay updated with the latest advancements in [specific
-                                    technologies or domain].
+                                <p>While backend is my strength, I also have solid frontend skills. I can confidently
+                                    build responsive, accessible interfaces using HTML, CSS, and JavaScript or
+                                    TypeScript with React.
+                                </p>
+                                <p>
+                                    Competing at WorldSkills UK and in the international competition not only strengthened my coding skills, but also taught me how to write precisely deliver requirements efficiently under strict time limits - all which are also essential when it comes to working with real clients and projects.
                                 </p>
                             </div>
-                            <HexagonBorderImage />
+                            <HexagonBorderImage/>
                         </div>
                     </article>
                     {/*Hobbies and interests*/}
@@ -57,12 +66,19 @@ const About: FC = () => {
                         <h3 className={"block--subtitle"}>Hobbies</h3>
                         <div className="block-content">
                             <div className="text--block">
-                                <p>Outside of web development, I enjoy activities that inspire creativity and provide balance. I love working on coding projects to explore new technologies and enhance my skills. Reading is another passion, whether it’s books on technology, personal development, or engaging fiction.
+                                <p>Outside of web development, I enjoy activities that inspire creativity and provide
+                                    balance. I love working on coding projects to explore new technologies and enhance
+                                    my skills. Reading is another passion, whether it’s books on technology, personal
+                                    development, or engaging fiction.
                                 </p>
-                                <p>Traveling allows me to experience new cultures and gain fresh perspectives, while gaming challenges my problem-solving abilities and helps me unwind. Photography is another interest, giving me the chance to experiment with visual storytelling and capture memorable moments. These hobbies often spark fresh ideas and keep me motivated in both personal and professional pursuits.
+                                <p>Traveling allows me to experience new cultures and gain fresh perspectives, while
+                                    gaming challenges my problem-solving abilities and helps me unwind. Photography is
+                                    another interest, giving me the chance to experiment with visual storytelling and
+                                    capture memorable moments. These hobbies often spark fresh ideas and keep me
+                                    motivated in both personal and professional pursuits.
                                 </p>
                             </div>
-                            <HexagonBorderImage />
+                            <HexagonBorderImage/>
                         </div>
                     </article>
                 </div>
