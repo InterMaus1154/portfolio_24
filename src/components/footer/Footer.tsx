@@ -5,7 +5,8 @@ const Footer: FC = () => {
     return (
         <footer className={"full--width"}>
             <div className="full-width-wrapper">
-                Mark Kiss &copy; {"2024 - " + new Date().getFullYear()}
+                <a href={"https://github.com/interMaus1154"} target={"_blank"} className={"inline-link"}>Márk Kiss</a>
+                &copy; {"2024 - " + new Date().getFullYear()}
             </div>
         </footer>
     );
