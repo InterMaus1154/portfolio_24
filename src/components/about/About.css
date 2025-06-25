@@ -8,7 +8,7 @@
 .about-block{
     display: flex;
     flex-flow: column nowrap;
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 .about-block .block-content{
@@ -41,7 +41,6 @@
 }
 
 .about-block .block--subtitle{
-    justify-self: center;
     align-self: center;
     color: transparent;
     background-clip: text;

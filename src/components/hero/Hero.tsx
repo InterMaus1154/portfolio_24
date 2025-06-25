@@ -9,6 +9,7 @@ const Hero: FC = () => {
                     <h2>Márk Kiss</h2>
                     <h3>Web Developer.</h3>
                     <h3>WorldSkills International Lyon 2024: Medallion of Excellence</h3>
+                    <h3>WorldSkills UK 2023: Gold Winner</h3>
                 </div>
             </div>
         </section>

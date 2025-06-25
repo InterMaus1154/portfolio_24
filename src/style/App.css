@@ -189,12 +189,18 @@ footer {
 }
 
 .page--section .section--title {
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: uppercase;
     -webkit-text-stroke: 1px var(--heading-txt);
     letter-spacing: 2px;
     color: transparent;
     position: relative;
+}
+
+@media(max-width: 800px){
+    .page--section .section--title{
+        font-size: 3rem;
+    }
 }
 
 .page--section .section--title::before {
