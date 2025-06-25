@@ -25,15 +25,11 @@ const About: FC = () => {
                         <h3 className={"block--subtitle"}>Educational Background</h3>
                         <div className="block-content">
                             <div className="text--block">
-                                <p>I hold a [Degree Name] in [Field of Study] from [University Name], where I developed
-                                    a strong foundation in [specific relevant skills or subjects]. My academic journey
-                                    honed my problem-solving abilities, critical thinking, and technical expertise,
-                                    preparing me to tackle real-world challenges in [industry or field].
+                                <p>I am currently completing my undergraduate degree of Software Engineering at a UK university. I completed the first year by achieving first class in all my modules.
                                 </p>
-                                <p>Additionally, I’ve engaged in continuous learning through certifications and personal
-                                    projects, ensuring I stay updated with the latest advancements in [specific
-                                    technologies or domain].
+                                <p>I attended the <a className={"inline-link"} href={"https://cnwl.ac.uk/about/news-events/article/2024/09/23/student-wins-medallion-for-excellence-at-worldskills-lyon-2024"} target={"_blank"}>College of North West London</a>, where I completed my BTEC Extended Diploma in IT qualification, achieving the highest grade of <b>D*D*D*.</b>
                                 </p>
+                                <p>After completing my course, I was awarded the <b>Outstanding Student of the Year</b> in Creative and Digital Industries.</p>
                             </div>
                             <HexagonBorderImage />
                         </div>

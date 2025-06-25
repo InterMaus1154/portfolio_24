@@ -234,3 +234,6 @@ footer {
     color: var(--txt);
 }
 
+.inline-link{
+    display: inline;
+}
