@@ -40,6 +40,15 @@
     letter-spacing: 1px;
 }
 
+.about-block .block--subtitle{
+    justify-self: center;
+    align-self: center;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to left, #4f46e5, var(--heading-txt));
+    font-size: 2.25rem;
+}
+
 .about-block .image--block{
     justify-self: center;
 

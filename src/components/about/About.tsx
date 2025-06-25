@@ -12,16 +12,9 @@ const About: FC = () => {
                         <h3 className={"block--subtitle"}>Introduction</h3>
                         <div className="block-content">
                             <div className="text--block">
-                                <p>I'm a passionate web developer dedicated to creating clean, functional, and visually
-                                    appealing websites. With expertise in both front-end and back-end development, I
-                                    enjoy
-                                    building user-friendly applications that solve real-world problems.
+                                <p>I'm a Hungarian web developer, current living and studying
                                 </p>
-                                <p>Feel free to explore my projects and see how I bring ideas to life through code.
-                                    Whether
-                                    it's crafting responsive designs, developing robust APIs, or optimizing performance,
-                                    I'm
-                                    always ready to tackle exciting challenges.
+                                <p>
                                 </p>
                             </div>
                             <HexagonBorderImage />
