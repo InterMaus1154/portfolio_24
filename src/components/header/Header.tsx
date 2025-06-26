@@ -79,7 +79,7 @@ const Header: FC = () => {
                                 </a>
                             </li>
                             <li>
-                                <a className={"nav-link"} href="#" title={"Find my social details and my CV"}>Contact
+                                <a className={"nav-link"} href="#contact" title={"Find my social details and my CV"}>Contact
                                 </a>
                             </li>
                             <li>

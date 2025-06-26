@@ -10,7 +10,7 @@ const About: FC = () => {
                 <div className="about-sections">
                     {/*Introduction*/}
                     <article className="about-block" id={"introduction"}>
-                        <h3 className={"block--subtitle"}>Introduction</h3>
+                        <h3 className={"block--subtitle gradient-text-title"}>Introduction</h3>
                         <div className="block-content">
                             <div className="text--block">
                                 <p>I'm a Hungarian web developer, currently living and studying in the UK, specialising
@@ -28,7 +28,7 @@ const About: FC = () => {
                     </article>
                     {/*Education*/}
                     <article className="about-block" id={"education"}>
-                        <h3 className={"block--subtitle"}>Educational Background</h3>
+                        <h3 className={"block--subtitle gradient-text-title"}>Education</h3>
                         <div className="block-content">
                             <div className="text--block">
                                 <p>I am currently completing my undergraduate degree of Software Engineering at a UK
@@ -49,7 +49,7 @@ const About: FC = () => {
                     </article>
                     {/*Skills*/}
                     <article className="about-block" id={"skills"}>
-                        <h3 className={"block--subtitle"}>Skills</h3>
+                        <h3 className={"block--subtitle gradient-text-title"}>Skills</h3>
                         <div className="block-content">
                             <div className="text--block">
                                 <p>My primary focus is backend development, particularly using PHP and the Laravel
@@ -72,7 +72,7 @@ const About: FC = () => {
                     </article>
                     {/*Hobbies and interests*/}
                     <article className="about-block" id={"hobbies"}>
-                        <h3 className={"block--subtitle"}>Hobbies</h3>
+                        <h3 className={"block--subtitle gradient-text-title"}>Hobbies</h3>
                         <div className="block-content">
                             <div className="text--block">
                                 <p>Outside of web development, my main hobby is aviation. I enjoy flying in flight
