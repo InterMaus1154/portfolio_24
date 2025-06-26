@@ -11,7 +11,7 @@ const WorldSkills: FC = () => {
                 <div className="ws-list">
                     <div className="ws-box">
                         <div className="ws-box-header">
-                            <p>WorldSkills UK 2023 National</p>
+                            <p>WorldSkills UK 2023 National Finals</p>
                         </div>
                         <div className="ws-box-body">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, quia.
@@ -22,7 +22,7 @@ const WorldSkills: FC = () => {
                     </div>
                     <div className="ws-box">
                         <div className="ws-box-header">
-                            <p>WorldSkills UK 2023 National</p>
+                            <p>WorldSkills International 2024</p>
                         </div>
                         <div className="ws-box-body">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, quia.
@@ -33,7 +33,7 @@ const WorldSkills: FC = () => {
                     </div>
                     <div className="ws-box">
                         <div className="ws-box-header">
-                            <p>WorldSkills UK 2023 National</p>
+                            <p>WorldSkills UK Journey Continues</p>
                         </div>
                         <div className="ws-box-body">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, quia.

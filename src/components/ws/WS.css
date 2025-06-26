@@ -19,8 +19,20 @@
 
     }
 
+    .ws-box:first-child{
+        --ws-box-background: var(--background);
+    }
+
+    .ws-box:nth-child(3){
+        --ws-box-background: #9d174d;
+    }
+
+    .ws-box:last-child{
+        --ws-box-background: #3d1778;
+    }
+
     .ws-box-header {
-        background-color: var(--background);
+        background-color: var(--ws-box-background);
         padding: 2rem;
         border-top-left-radius: 25%;
         font-size: 2rem;
@@ -29,7 +41,7 @@
     }
 
     .ws-box-body{
-        background-color: var(--background);
+        background-color: var(--ws-box-background);
         padding: 2rem;
         border-bottom-right-radius: 25%;
         font-size: 1.125rem;
