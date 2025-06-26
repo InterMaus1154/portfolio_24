@@ -15,7 +15,7 @@ const Contact: FC = () => {
                         <div className="contact-box-icon">
                             <FontAwesomeIcon icon={faEnvelope}/>
                         </div>
-                        <a href="mailto:amarco1154@gmail.com">amarco1154@gmail.com</a>
+                        <a href="mailto:amarco1154@gmail.com" target={"_blank"}>amarco1154@gmail.com</a>
                     </div>
                     <div className="contact-box">
                         <h3 className="contact-box-title gradient-text-title">GitHub</h3>

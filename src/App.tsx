@@ -4,7 +4,7 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
 import About from "./components/about";
-import WorldSkillsProjects from "./components/ws";
+import WorldSkills from "./components/ws";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 
@@ -22,7 +22,7 @@ const App: FC = () => {
             <main>
                 <Hero/>
                 <About />
-                <WorldSkillsProjects />
+                <WorldSkills />
                 <Projects />
                 <Contact />
             </main>

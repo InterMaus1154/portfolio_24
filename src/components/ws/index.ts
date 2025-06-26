@@ -1,1 +1,1 @@
-export {default} from "./WorldSkillsProjects.tsx";
+export {default} from "./WorldSkills.tsx";

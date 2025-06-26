@@ -1,0 +1,53 @@
+.ws-list {
+    /*TODO*/
+
+    display: flex;
+    gap: 2.75rem;
+    justify-content: space-around;
+    align-items: center;
+
+    .ws-box {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        transition: gap .25s ease-in-out;
+
+        &:hover{
+            gap: 0;
+            transition: gap .25s ease-in-out;
+        }
+
+    }
+
+    .ws-box-header {
+        background-color: var(--background);
+        padding: 2rem;
+        border-top-left-radius: 25%;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .ws-box-body{
+        background-color: var(--background);
+        padding: 2rem;
+        border-bottom-right-radius: 25%;
+        font-size: 1.125rem;
+    }
+
+    .ws-icon-wrapper{
+        font-size: 2.5rem;
+        color: var(--heading-txt);
+    }
+
+}
+
+@media (max-width: 900px) {
+    .ws-list{
+        flex-direction: column;
+    }
+
+    .ws-icon-wrapper{
+        transform: rotate(90deg);
+    }
+}
