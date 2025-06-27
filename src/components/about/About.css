@@ -37,7 +37,10 @@
     font-size: 1.225rem;
     align-self: center;
     line-height: 1.5;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    word-spacing: -0.05em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .about-block .block--subtitle{
