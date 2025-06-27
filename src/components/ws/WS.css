@@ -4,13 +4,14 @@
     display: flex;
     gap: 2.75rem;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 
     .ws-box {
         display: flex;
         flex-direction: column;
         gap: .5rem;
         transition: gap .25s ease-in-out;
+        min-width: 25%;
 
         &:hover{
             gap: 0;
@@ -45,11 +46,26 @@
         padding: 2rem;
         border-bottom-right-radius: 25%;
         font-size: 1.125rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        line-height: 1.5;
     }
 
     .ws-icon-wrapper{
         font-size: 2.5rem;
         color: var(--heading-txt);
+        align-self: center;
+    }
+
+    .badge-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:70%;
+        align-self: center;
+        filter: drop-shadow(10px 25px 40px var(--background));
     }
 
 }
