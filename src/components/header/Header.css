@@ -8,6 +8,9 @@ header{
     z-index: 1000;
 }
 
+header h1 a{
+    text-decoration: none;
+}
 
 header::before{
     content: '';

@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const Projects: FC = () => {
     return (
-        <section className={"page--section projects-section full--width"}>
+        <section className={"page--section projects-section full--width"} id={"projects"}>
             <div className="full-width-wrapper">
                 <h2 className={"section--title"}>Projects</h2>
                 <em>Coming soon</em>

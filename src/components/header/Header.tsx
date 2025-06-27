@@ -49,10 +49,14 @@ const Header: FC = () => {
     return (
         <Fragment>
             {/*only used for scroll observing, no content should be placed*/}
-            <div className={"observer"} ref={observerRef}></div>
+            <div className={"observer"} ref={observerRef} id={"top"}></div>
             <header className={!isObserverVisible ? "full--width header-scroll" : "full--width"} ref={headerRef}>
                 <div className="full-width-wrapper">
-                    <h1>Márk Kiss</h1>
+                    <h1>
+                        <a href="#top">
+                            Márk Kiss
+                        </a>
+                    </h1>
                     {/*menu toggle button, should be only visible on small screen*/}
                     <button ref={buttonRef}
                             className={isNavVisible ? "hamburger-button hamburger-open" : "hamburger-button"}
@@ -69,17 +73,18 @@ const Header: FC = () => {
                                 <a className={"nav-link"} title={"About me"} href="#about">About</a>
                             </li>
                             <li>
-                                <a className={"nav-link"} href="#" title={"My journey with WorldSkills"}>WorldSkills
+                                <a className={"nav-link"} href="#ws" title={"My journey with WorldSkills"}>WorldSkills
                                     Journey
                                 </a>
                             </li>
                             <li>
-                                <a className={"nav-link"} href="#"
+                                <a className={"nav-link"} href="#projects"
                                    title={"Projects I have worked and been working on"}>Projects
                                 </a>
                             </li>
                             <li>
-                                <a className={"nav-link"} href="#contact" title={"Find my social details and my CV"}>Contact
+                                <a className={"nav-link"} href="#contact"
+                                   title={"Find my social details and my CV"}>Contact
                                 </a>
                             </li>
                             <li>
