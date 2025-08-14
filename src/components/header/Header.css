@@ -28,6 +28,7 @@ header.header-scroll .full-width-wrapper{
 }
 
 
+
 header .full-width-wrapper{
     padding-block: 3rem;
     padding-inline: 2rem;
@@ -38,6 +39,12 @@ header .full-width-wrapper{
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
+}
+
+@media(max-width: 800px){
+    header .full-width-wrapper{
+        padding-block: 1.5rem;
+    }
 }
 
 header nav ul{

@@ -4,8 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 100vh;
+    min-height: 110vh;
     min-height: 100svh;
+    min-height: 100dvh;
 
     position: relative;
     isolation: isolate;
