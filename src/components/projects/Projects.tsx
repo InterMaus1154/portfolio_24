@@ -13,7 +13,7 @@ const Projects: FC = () => {
                 <div className="project-list">
                     {/*nuti pita admin*/}
                     <div className="project-box">
-                        <h2>Nuti Pita - Order Management System</h2>
+                        <h2>Nuti Pita - Public Customer Website</h2>
                         <div className="description">
                             <p>A modern React-based website designed to attract customers with
                                 product showcases, and contact options.
@@ -43,7 +43,7 @@ const Projects: FC = () => {
                     </div>
                     {/*nuti pita customer page*/}
                     <div className="project-box">
-                        <h2>Nuti Pita - Public Customer Website</h2>
+                        <h2>Nuti Pita - Order Management System </h2>
                         <div className="description">
                             <p>Bespoke Laravel web application to replace traditional spreadsheets; for staff to manage
                                 orders, customers, invoices and more!
